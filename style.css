@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background:#eeeeee;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #25232a;
+}
+.pagina {
+    width: min(100%,1440px);
+    min-height: 100vh;
+    margin: auto;
+    padding: 28px 5%;
+    background: #faf9f9;
+    overflow: hidden;
+}
+.cabecalho
+{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    min-height: 55px;
+    position: relative;
+    z-index: 5;
+
+}
+.narca{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: bold;
+    line-height: 1.1;
+}
+.escudo {
+    width: 25px;
+    height: 25px;
+    border: 2px solid #8b2635;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    color: #8b2635;
+    font-size: 8px;
+
+}
+.clube {
+    font-size: 23px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+.menu {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.menu a:hover {
+    color: #d52f35;
+    
+}
+hero {
+    position: relative;
+    min-height: 690px;
+    margin-top: 10px;
+
+}
+.numero {
+    position: absolute;
+    top: 65px;
+    right: 2%;
+    color:#eeebeb;
+    font-size: clamp9(13px,1.5vw,19px);
+    font-weight: 800;
+    line-height: 1.2;
+}
+.nome{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    height: 520px;
+    max-width: 60%;
+    object-fit: contain;
+    object-position: center bottom;
+}
+.lance {
+    
+}
+
+
+
+
+
